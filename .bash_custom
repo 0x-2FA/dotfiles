@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+# define all the colors
+
+if tput setaf 1 &> /dev/null; then
+	tput sgr0; # reset colors
+	bold=$(tput bold);
+	reset=$(tput sgr0);
+	
+	gold=$(tput setaf 220);
+	blue=$(tput setaf 111);
+	cyan=$(tput setaf 50);
+	red=$(tput setaf 167);
+	orange=$(tput setaf 209);
+	green=$(tput setaf 120);
+	violet=$(tput setaf 63);
+
+fi
+
+# Set the terminal title and prompt
+PS1="\[${green}[\]";
+PS1+="\${blue}\u\]";
+PS1+="\[${cyan}@\]";
+PS1+="\[${red}\h\]";
+PS1+="\[${green}]\] ";
+PS1+="\[${orange}\w\] ";
