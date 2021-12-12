@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+# define name shortcuts
+nl='\n'
+
+
+# Shorten deep paths in the prompt
+PROMPT_DIRTRIM=4                        
+
 # define all the colors
 
 if tput setaf 1 &> /dev/null; then
