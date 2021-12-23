@@ -1,34 +1,22 @@
 #!/usr/bin/env bash
 
-# define name shortcuts
-nl='\n'
+
+# define rgb colors
+blue="\e[38;2;160;222;235m";
+dark_blue="\e[38;2;109;174;189m";
+brown="\e[38;2;158;114;76m";
+semi_brown="\e[38;2;235;195;160m";
+pink="\e[38;2;235;183;171m";
+dark_pink="\e[38;2;158;130;123m";
+
+# define reset
+reset="\e[m";
+new_line="\n";
 
 
-# Shorten deep paths in the prompt
-PROMPT_DIRTRIM=4                        
+# Set the terminal prompt
+PS1="\[${blue}\]\u \[${reset}\]\[${semi_brown}\]is at\[${reset}\] ";
+PS1+="\[${brown}\]\w \[${reset}\]\[${new_line}\]";
+PS1+="\[${dark_pink}\]~> \[${reset}\]";
 
-# define all the colors
-
-if tput setaf 1 &> /dev/null; then
-	tput sgr0; # reset colors
-	bold=$(tput bold);
-	reset=$(tput sgr0);
-	
-	gold=$(tput setaf 220);
-	blue=$(tput setaf 111);
-	cyan=$(tput setaf 50);
-	red=$(tput setaf 167);
-	orange=$(tput setaf 209);
-	green=$(tput setaf 120);
-	violet=$(tput setaf 63);
-	purple=$(tput setaf 141);
-
-fi
-
-# Set the terminal title and prompt
-PS1="\[${gold}[\]";
-PS1+="\${blue}\u\]";
-PS1+="\[${gold}@\]";
-PS1+="\[${purple}\h\]";
-PS1+="\[${gold}] \]";
-PS1+="\[${orange}\w> \]\[${reset}\]";
+export PS1;
