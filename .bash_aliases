@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 # Git aliases
 alias gs='git status'
 alias ga='git add'
@@ -9,19 +10,16 @@ alias gpo='git push -u origin $1'
 alias gcl='git clone'
 alias gme='git merge'
 
-### Bash aliases ###
-
-## Directory ##
+# Bash aliases
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ll='ls -alF'
 alias la='ls -la'
+
+# Custome aliases
+alias nf='neofetch'
+
 # -> add more ls commands
-
-## General Commands ##
-alias wcl = 'wc -l'
-
-
 
 # General use functions
 mkd () {
