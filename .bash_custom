@@ -2,19 +2,19 @@
 
 
 # define rgb colors
-blue="\e[38;2;160;222;235m";
-dark_blue="\e[38;2;109;174;189m";
-brown="\e[38;2;158;114;76m";
-semi_brown="\e[38;2;235;195;160m";
-pink="\e[38;2;235;183;171m";
-dark_pink="\e[38;2;158;130;123m";
+blue="\\[\\e[38;2;160;222;235m";
+dark_blue="\\[\\e[38;2;109;174;189m";
+brown="\\[\\e[38;2;158;114;76m";
+semi_brown="\\[\\e[38;2;235;195;160m";
+pink="\\[\\e[38;2;235;183;171m";
+dark_pink="\\[\\e[38;2;158;130;123m";
 
 # define reset
-reset="\e[m";
-new_line="\n";
+reset="\\[\\e[m\\]";
+new_line="\\n";
 
 
 # Set the terminal prompt
-PS1="\\[${blue}\\u ${reset}${semi_brown}is at${reset} ${brown}\\w ${reset}${new_line}${dark_pink}~> ${reset}\\]";
+PS1="\\[${blue}\\u ${reset}${semi_brown}is at${reset}${brown} \\w ${reset}${new_line}${dark_pink}~>${reset}\\] ";
 
 export PS1;
