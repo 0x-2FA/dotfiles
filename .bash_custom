@@ -15,8 +15,6 @@ new_line="\n";
 
 
 # Set the terminal prompt
-PS1="\[${blue}\]\u \[${reset}\]\[${semi_brown}\]is at\[${reset}\] ";
-PS1+="\[${brown}\]\w \[${reset}\]\[${new_line}\]";
-PS1+="\[${dark_pink}\]~>\[${reset}\] ";
+PS1="\\[${blue}\\u ${reset}${semi_brown}is at${reset} ${brown}\\w ${reset}${new_line}${dark_pink}~> ${reset}\\]";
 
 export PS1;
