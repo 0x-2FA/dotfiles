@@ -15,6 +15,8 @@ alias ..='cd ..'
 alias ...='cd ../../'
 alias ll='ls -alF'
 alias la='ls -la'
+alias tree='tree -L 1'
+alias tree2='tree -L 2'
 
 # Custome aliases
 alias nf='neofetch'
