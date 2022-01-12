@@ -2,6 +2,7 @@
 
 
 # Git aliases
+alias gi='git init'
 alias gs='git status'
 alias ga='git add'
 alias ga.='git add .'
