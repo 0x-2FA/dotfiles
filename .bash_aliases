@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 
+# Debian based aliases
+alias update='sudo apt update'
+
 # Git aliases
 alias gi='git init'
 alias gs='git status'
