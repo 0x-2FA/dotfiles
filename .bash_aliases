@@ -6,6 +6,8 @@ alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
 alias upall='sudo apt update && sudo apt upgrade'
 alias search='sudo apt search $1'
+alias install='sudo apt install $1'
+
 
 # Git aliases
 alias gi='git init'
