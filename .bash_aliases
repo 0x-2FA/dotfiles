@@ -29,6 +29,8 @@ alias ll='ls -alF'
 alias la='ls -la'
 alias tree='tree -L 1'
 alias tree2='tree -L 2'
+alias zip='tar -czf $1'
+alias unzip='tar -xzf $1'
 
 # Custome aliases
 alias nf='neofetch'
