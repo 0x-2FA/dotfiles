@@ -10,7 +10,7 @@ alias install='sudo apt install $1'
 
 # Make some typos work
 alias dc='cd $1'
-alias sl='ls'
+alias sl='ls --color=auto'
 
 # Git aliases
 alias gi='git init'
