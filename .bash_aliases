@@ -8,6 +8,9 @@ alias upall='sudo apt update && sudo apt upgrade'
 alias search='sudo apt search $1'
 alias install='sudo apt install $1'
 
+# Make some typos work
+alias dc='cd $1'
+alias sl='ls'
 
 # Git aliases
 alias gi='git init'
