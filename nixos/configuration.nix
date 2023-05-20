@@ -96,7 +96,7 @@
       
       ### Misc. ###
       keepassxc
-      transmission
+      transmission-gtk
       syncthing
       insomnia
 
@@ -109,6 +109,7 @@
       fzf
       tre-command
       exa
+      figlet
 
       ### Development ###
       vscode
