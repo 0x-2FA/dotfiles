@@ -102,6 +102,9 @@
       tre-command
       exa
       figlet
+      zoxide
+      onefetch
+      diff-so-fancy
 
       ### Development ###
       vscode
