@@ -136,7 +136,7 @@
       gct="git commit -m $1";
       gpo="git push origin $1";
       gs="git status";
-      gd="git diff $1";
+      gd="git diff $1 | diff-so-fancy";
       gcl="git clone $1";
       gi="git init";
     };
