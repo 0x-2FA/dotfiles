@@ -151,6 +151,13 @@
   users.defaultUserShell = pkgs.zsh;
   environment.shells = with pkgs; [ zsh ];
 
+  ### Fonts ###
+  fonts.fonts = with pkgs; [
+    nerdfonts
+    fira-code
+    fira-code-symbols
+  ];
+
   ### Nvidia ###
   services.xserver.videoDrivers = [ "nvidia" ]; # works on wayland too
   hardware.opengl.enable = true;
