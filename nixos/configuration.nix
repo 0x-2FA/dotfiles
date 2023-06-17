@@ -141,7 +141,7 @@
       gi="git init";
 
       ## CLI ##
-      ls="exa --icons"
+      ls="exa --icons";
     };
     ohMyZsh = {
       enable = true;
