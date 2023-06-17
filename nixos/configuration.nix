@@ -139,6 +139,9 @@
       gd="git diff $1 | diff-so-fancy";
       gcl="git clone $1";
       gi="git init";
+
+      ## CLI ##
+      ls="exa --icons"
     };
     ohMyZsh = {
       enable = true;
