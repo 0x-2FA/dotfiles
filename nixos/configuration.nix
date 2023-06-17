@@ -99,7 +99,7 @@
       bat
       aria
       fzf
-      tre-command
+      broot
       exa
       figlet
       zoxide
@@ -111,8 +111,8 @@
       git
       micro
       jetbrains.idea-community
-      jetbrains.rider
-      jetbrains.webstorm
+      jetbrains.rider			# needs account in order to work
+      jetbrains.webstorm		# needs account in order to work
       
       ### Office
       onlyoffice-bin
@@ -147,7 +147,6 @@
   };
   users.defaultUserShell = pkgs.zsh;
   environment.shells = with pkgs; [ zsh ];
-
 
   ### Nvidia ###
   services.xserver.videoDrivers = [ "nvidia" ]; # works on wayland too
