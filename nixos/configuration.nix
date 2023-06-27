@@ -110,7 +110,7 @@
       vscode
       git
       micro
-      jetbrains.idea-community
+      jetbrains.idea-ultimate   # needs account in order to work
       jetbrains.rider			# needs account in order to work
       jetbrains.webstorm		# needs account in order to work
       
